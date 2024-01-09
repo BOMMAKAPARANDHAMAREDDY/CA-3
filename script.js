@@ -74,7 +74,7 @@ function details(id){
         modalImg.src = meal.strMealThumb;
         captionText.innerHTML = meal.strMeal;
         ingredients.innerHTML = `
-                <h6>Ingredients</h6>
+                <h3>Ingredients</h3>
                 <ul>
                     <li>${meal.strCategory}</li>
                     <li>${meal.strIngredient1}</li>
