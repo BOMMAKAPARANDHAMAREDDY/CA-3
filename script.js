@@ -76,13 +76,13 @@ function details(id){
         ingredients.innerHTML = `
                 <h6>Ingredients</h6>
                 <ul>
-                    <li>${meal.strArea}</li>
                     <li>${meal.strCategory}</li>
                     <li>${meal.strIngredient1}</li>
                     <li>${meal.strIngredient2}</li>
                     <li>${meal.strIngredient3}</li>
                     <li>${meal.strIngredient4}</li>
                     <li>${meal.strIngredient5}</li>
+                    <li>${meal.strIngredient6}</li>
                 </ul>
             </div>
         </div>
